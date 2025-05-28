@@ -40,3 +40,5 @@ elif userOption == 4:
     valueTwo = int(input("Enter Another Number: \n"))
     finalRes = valueOne / valueTwo
     print(f"Your final result is: {finalRes}")
+else:
+    print("You didn't enter an avaible option.")
